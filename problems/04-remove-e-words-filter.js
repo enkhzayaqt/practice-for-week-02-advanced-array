@@ -17,8 +17,7 @@ let removeEWords = function(sentence) {
   let arr = sentence.split(' ');
   return arr.filter(x => x.includes("e") === false).join(' ');
 };
-console.log(removeEWords('What time is it everyone?')); // 'What is it'
-console.log(removeEWords('Enter the building')); // 'building'
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {

@@ -28,10 +28,6 @@ let longestWord = function(sentence) {
     return longestWord;
 };
 
-
-console.log(longestWord('where did everyone go')); // 'everyone'
-console.log(longestWord('prefer simplicity over complexity')); // 'simplicity'
-console.log(longestWord('')); // ''
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
